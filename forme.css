@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+/* Body */
+#logo{
+    max-width: 1200px;
+    min-height: 300vh;
+    
+}
+body {
+    margin: 0;
+    background: #FFF8FC; 
+    font-family: "Quicksand", sans-serif;
+    color: #222;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.stickers-fond {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Style pour les images de stickers */
+.sticker {
+    position: absolute;
+    width: 50px; /* Ajuste la taille selon tes images */
+    height: 50px;
+    opacity: 0.5;
+    animation: flotter 5s infinite ease-in-out;
+}
+
+/* Positions des stickers (identiques à avant) */
+.s1 { top: 15%; left: 10%; animation-duration: 4s; }
+.s2 { top: 70%; left: 20%; animation-duration: 6s; }
+.s3 { top: 25%; right: 15%; animation-duration: 5s; }
+.s4 { bottom: 15%; right: 10%; animation-duration: 7s; }
+
+/* Animation (identique à avant) */
+@keyframes flotter {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-25px); }
+    100% { transform: translateY(0px); }
+}
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 75px;
+    font-weight: 700;
+    text-shadow: 3px 3px 8px rgba(255, 182, 213, 0.5);
+}
+
+.conteneur-principal {
+    width: 100%;
+    background: white; 
+    border-left: 4px solid #FFB6D9; 
+    border-right: 4px solid #FFB6D9; 
+    margin: 0 auto;
+    flex: 1; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.site {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 100%; 
+    margin: 0 auto;
+    background: transparent; 
+    border: none; 
+    border-radius: 0; 
+    box-shadow: none; 
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 40px;
+    border-top: 2px solid #F3D5EE;
+    border-left: 4px solid #FFB6D9; /* Bordure rose gauche */
+    border-right: 4px solid #FFB6D9; /* Bordure rose droite */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+body {
+    margin: 0;
+    background: #FFF8FC; /* Fond rose clair */
+    font-family: "Quicksand", sans-serif;
+    color: #222;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Assure que le body prend toute la hauteur */
+}
+
+/* Conteneur principal qui s'étend jusqu'au footer */
+.conteneur-principal {
+    width: 100%;
+    background: white; /* Fond blanc */
+    border-left: 4px solid #FFB6D9; /* Bordure rose gauche */
+    border-right: 4px solid #FFB6D9; /* Bordure rose droite */
+    margin: 0 auto;
+    flex: 1; /* Prend tout l'espace disponible */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Site (contenu principal) */
+.site {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 100%; /* Prend toute la hauteur du conteneur */
+    margin: 0 auto;
+    background: transparent; /* Fond transparent pour voir le blanc du conteneur */
+    border: none; /* Supprime la bordure du site */
+    border-radius: 0; /* Supprime les coins arrondis */
+    box-shadow: none; /* Supprime l'ombre du site */
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 40px;
+    border-top: 2px solid #F3D5EE;
+    border-left: 4px solid #FFB6D9; /* Bordure rose gauche */
+    border-right: 4px solid #FFB6D9; /* Bordure rose droite */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+body {
+    margin: 0;
+    background: #FFF8FC; /* Fond rose clair */
+    font-family: "Quicksand", sans-serif;
+    color: #222;
+    overflow-x: hidden;
+}
+
+
+/* Structure globale */
+.site {
+    width: 90%;
+    max-width: 1200px;
+    min-height: 300vh;
+    margin: 40px auto;
+    background: white;
+    border: 4px solid #FFB6D9;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 10;
+}
+
+/* Stickers animés en fond */
+.stickers-fond {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.sticker {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.5;
+    animation: flotter 5s infinite ease-in-out;
+}
+
+.s1 { top: 15%; left: 10%; animation-duration: 4s; }
+.s2 { top: 70%; left: 20%; animation-duration: 6s; }
+.s3 { top: 25%; right: 15%; animation-duration: 5s; }
+.s4 { bottom: 15%; right: 10%; animation-duration: 7s; }
+
+@keyframes flotter {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-25px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Barre de navigation */
+.barre-site {
+    width: 90%;
+    margin: 30px auto;
+    border: 3px solid #FFB6D9;
+    border-radius: 10px;
+    background: white;
+}
+
+.recherche {
+    padding: 15px;
+    background: linear-gradient(to bottom, #FFD9EC, #FFB6D9);
+    border-bottom: 2px solid #FFB6D9;
+}
+
+.recherche input {
+    width: 98%;
+    padding: 12px;
+    border: 2px solid #FF9DCB;
+    border-radius: 8px;
+    background: #FFF5FA;
+    font-size: 16px;
+    outline: none;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+    padding: 12px 20px;
+    background: white;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    background: #FFD6EC;
+    color: #FF4FA2;
+}
+
+/* Section Hero (fond rose + image de l'oiseau) */
+.hero {
+    position: relative;
+    background: #FFF8FC;
+    border: 3px solid #FFD6EC;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 5px 15px rgba(255, 182, 213, 0.2);
+    text-align: center;
+}
+
+.oiseau-image {
+    width: 150px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+/*Texte et boutons */
+h1 {
+    color: #4406D9;
+    font-size: 75px;
+    font-weight: 700;
+    text-shadow: 3px 3px 8px rgba(255, 182, 213, 0.5);
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    color: #4406D9;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #4CA7FF;
+    font-size: 28px;
+}
+
+h4 {
+    color: #FF6FB5;
+    font-size: 22px;
+}
+
+p {
+    background: #FFF8FC;
+    border: 3px solid #FFD6EC;
+    border-radius: 25px;
+    padding: 25px;
+    line-height: 1.8;
+    color: #000;
+    box-shadow: 0 5px 15px rgba(255, 182, 213, 0.2);
+    max-width: 900px;
+    margin: 25px auto;
+}
+button {
+    margin-left: 0;
+}
+
+.menu button {
+    margin-left: auto;
+}
+
+#boutton-principale {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background: linear-gradient(45deg, #FFDE21, #A8D8FF);
+    color: black;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(168, 216, 255, 0.6);
+}
+
+/* Footer */
+footer {
+    background: white;
+    text-align: center;
+    padding: 40px;
+    border-top: 2px solid #F3D5EE;
+}
+
+.footer-content h3 {
+    color: #C85BC8;
+    font-size: 28px;
+}
+
+.footer-content p {
+    color: #555;
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.5;
+}
+
+.reseaux a {
+    text-decoration: none;
+    color: #C85BC8;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.reseaux a:hover {
+    color: #9D3DA8;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 25px;
+}
