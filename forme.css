@@ -6,6 +6,40 @@
     min-height: 300vh;
     
 }
+#boutton-principale {
+    margin: 10px auto;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#boutton-principale {
+    background: linear-gradient(45deg, #FFDE21, #A8D8FF);
+    color: black;
+    border-radius: 40px;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: auto;
+    text-align : center ;
+}
+
+#boutton-principale:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(168, 216, 255, 0.6);
+}
+.logo {
+    width: 1000px;   /* Change la taille selon ton envie */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    margin: 40px auto 20px auto;
+}
 body {
     margin: 0;
     background: #FFF8FC; 
@@ -157,7 +191,7 @@ body {
 .site {
     width: 90%;
     max-width: 1200px;
-    min-height: 300vh;
+    min-height: 10vh;
     margin: 40px auto;
     background: white;
     border: 4px solid #FFB6D9;
