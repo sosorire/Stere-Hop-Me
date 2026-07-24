@@ -63,17 +63,20 @@ body {
 /* Style pour les images de stickers */
 .sticker {
     position: absolute;
-    width: 50px; /* Ajuste la taille selon tes images */
-    height: 50px;
+    width: 250px; /* Ajuste la taille selon tes images */
+    height: 200px;
     opacity: 0.5;
     animation: flotter 5s infinite ease-in-out;
 }
 
 /* Positions des stickers (identiques à avant) */
-.s1 { top: 15%; left: 10%; animation-duration: 4s; }
-.s2 { top: 70%; left: 20%; animation-duration: 6s; }
-.s3 { top: 25%; right: 15%; animation-duration: 5s; }
-.s4 { bottom: 15%; right: 10%; animation-duration: 7s; }
+.s1 { top: 20%; left: 10%; animation-duration: 4s; }
+.s2 { top: 60%; left: 20%; animation-duration: 4s; }
+.s3 { top: 25%; right: 15%; animation-duration: 4s; }
+.s4 { bottom: 15%; right: 10%; animation-duration: 4s; }
+.s5 { bottom: 75%; right: 10%; animation-duration: 4s; }
+.s6 { bottom: 50%; right: 40%; animation-duration: 4s; }
+.s7 { bottom: 45%; right: 90%; animation-duration: 4s; }
 
 /* Animation (identique à avant) */
 @keyframes flotter {
@@ -90,7 +93,7 @@ h1 {
 
 .conteneur-principal {
     width: 100%;
-    background: white; 
+    background: #90D5FF; 
     border-left: 4px solid #FFB6D9; 
     border-right: 4px solid #FFB6D9; 
     margin: 0 auto;
@@ -104,7 +107,7 @@ h1 {
     max-width: 1200px;
     min-height: 100%; 
     margin: 0 auto;
-    background: transparent; 
+    background: #90D5FF; 
     border: none; 
     border-radius: 0; 
     box-shadow: none; 
@@ -141,7 +144,7 @@ body {
 /* Conteneur principal qui s'étend jusqu'au footer */
 .conteneur-principal {
     width: 100%;
-    background: white; /* Fond blanc */
+    background: #90D5FF; /* Fond blanc */
     border-left: 4px solid #FFB6D9; /* Bordure rose gauche */
     border-right: 4px solid #FFB6D9; /* Bordure rose droite */
     margin: 0 auto;
